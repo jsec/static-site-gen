@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "boot-site-generator"
+version = "0.1.0"
+description = ""
+authors = ["Jarrod Seccombe <jarrod.seccombe@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.0"
+ruff = "^0.3.7"
+mypy = "^1.9.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
